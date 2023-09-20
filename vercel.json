@@ -2,40 +2,32 @@
   "regions": ["hnd1"],
   "rewrites": [
     {
-      "source": "/usage:match*",
-      "destination": "http://api.nextweb.fun/usage/public"
-    },
-    {
       "source": "/api/:match*",
-      "destination": "https://api.nextweb.fun/api/:match*"
+      "destination": "https://api.nekoai.top/api/:match*"
     },
     {
       "source": "/openai/:match*",
-      "destination": "https://api.nextweb.fun/openai/:match*"
-    },
-    {
-      "source": "/_next/static/:match*",
-      "destination": "https://api.nextweb.fun/_next/static/:match*"
+      "destination": "https://api.nekoai.top/openai/:match*"
     },
     {
       "source": "/v1/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/:match*"
+      "destination": "https://api.nekoai.top/api/openai/v1/:match*"
     },
     {
       "source": "/chat/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/chat/:match*"
+      "destination": "https://api.nekoai.top/api/openai/v1/chat/:match*"
     },
     {
       "source": "/dashboard/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/dashboard/:match*"
+      "destination": "https://api.nekoai.top/api/openai/v1/dashboard/:match*"
     },
     {
       "source": "/models/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/models/:match*"
+      "destination": "https://api.nekoai.top/api/openai/v1/models/:match*"
     },
     {
       "source": "/embeddings/:match*",
-      "destination": "https://api.nextweb.fun/api/openai/v1/embeddings/:match*"
+      "destination": "https://api.nekoai.top/api/openai/v1/embeddings/:match*"
     }
   ]
 }
