@@ -4,6 +4,6 @@
     {
       "source": "/v1/:match*",
       "destination": "https://api.nekoai.top/v1/:match*"
-    },
+    }
   ]
 }
