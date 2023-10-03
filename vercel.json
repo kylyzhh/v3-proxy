@@ -2,8 +2,12 @@
   "regions": ["hnd1"],
   "rewrites": [
     {
-      "source": "/v1/:match*",
-      "destination": "https://api.nekoai.top/v1/:match*"
+      "source": "/v1/(.*)",
+      "destination": "https://api.nekoai.top/v1/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://api.nekoai.top/$1"
     }
   ]
 }
