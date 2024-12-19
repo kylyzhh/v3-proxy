@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/:match*",
-      "destination": "https://api.v3.cm/:match*"
+      "destination": "https://api.vveai.com/:match*"
     }
   ]
 }
